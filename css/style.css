@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: url("../images/pattern.png");
+}
+
+.text {
+    font-size: 50px;
+    background: linear-gradient(90deg, rgba(81,143,212,1) 4%, rgba(27,15,44,1) 88%);
+    -webkit-background-clip: text; /* Обрезаем фон по тексту */
+    -webkit-text-fill-color: transparent; /* Прозрачный текст */
+    text-align: center;  
+}
+
+.block {
+    margin: 30px auto;
+    width: 400px;
+    height: 380px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px #ccc;
+    border-radius: 30px;
+    padding: 10px;
+    
+}
+
+.block_t1 {
+    text-align: center;
+    background: linear-gradient(90deg, rgba(81,143,212,1) 4%, rgba(27,15,44,1) 88%);
+    -webkit-background-clip: text; /* Обрезаем фон по тексту */
+    -webkit-text-fill-color: transparent; /* Прозрачный текст */
+}
+
+.block_t2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.block_t3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.block_t4 {
+    padding: 30px;
+    text-align: center;
+}
+
+.text_gradient {
+    background: linear-gradient(90deg, rgba(81,143,212,1) 4%, rgba(27,15,44,1) 88%);
+    -webkit-background-clip: text; /* Обрезаем фон по тексту */
+    -webkit-text-fill-color: transparent; /* Прозрачный текст */
+}
